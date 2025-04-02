@@ -1,11 +1,13 @@
-public class ForLoopStatement{
+public class WhileLoopStatement{
 	public static void main(String[] args){
-	
 		int num = 50;
 		
-		for(int i = 1; i <= 10; i++) {
+		int i = 1;
+		
+		while(i <= 10) {
 			System.out.printf("%d%n", num);
-
+			i++;
 		}
+	
 	}
 }
